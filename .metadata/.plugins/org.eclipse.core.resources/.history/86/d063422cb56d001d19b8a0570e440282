@@ -1,0 +1,27 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component()
+public class ComercialExperimentado implements Empleados {
+	
+	private CreacionInformeFinanciero informe;
+
+	
+	public ComercialExperimentado(CreacionInformeFinanciero informe) {
+		this.informe = informe;
+	}
+
+	@Override
+	public String getTareas() {
+		return "Tarea del comercial";
+	}
+
+	@Override
+	public String getInformes() {
+		//return "Informe del comercial";
+		return informe.getInformeFinanciero();
+	}
+
+}

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example.demo.ComercialExperimentado"/>
+    <fullyQualifiedTypeName name="com.example.demo.CreacionInformeFinanciero"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.example.demo.CreacionInformeBalance"/>
+</qualifiedTypeNameHistroy>

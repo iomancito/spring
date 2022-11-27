@@ -1,0 +1,6 @@
+package com.example.demo;
+
+public interface CreacionInformeFinanciero {
+	purblic String getInformeFinanciero();
+
+}

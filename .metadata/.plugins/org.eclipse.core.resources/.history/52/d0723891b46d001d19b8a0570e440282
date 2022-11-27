@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class InformeFinancieroTrim1 implements CreacionInformeFinanciero {
+
+	@Override
+	public String getInformeFinanciero() {
+
+		return "Pesentación informe financiero";
+	}
+
+}

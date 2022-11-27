@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ComercialExperimentado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		return "Tarea del comercial";
+	}
+
+	@Override
+	public String getInformes() {
+		return "Informe del comercial";
+	}
+
+}

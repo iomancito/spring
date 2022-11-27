@@ -1,0 +1,14 @@
+package com.example.demo;
+
+public class ComercialExperimentado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		System.out.println("Tarea del comercial");
+	}
+
+	@Override
+	public String getInformes() {
+		System.out.println("Informe del comercial");
+
+}
